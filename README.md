@@ -30,6 +30,16 @@ You need a powershell modules folder to install this powershell as a module as w
     ```
 2. Follow the directions at https://docs.microsoft.com/en-us/powershell/module/microsoft.powershell.core/about/about_modules?view=powershell-7.2
 
+<!-- USAGE -->
+
+### Usage
+
+    MakeBlazorPage -PagePath [path to Pages folder] -PageName [new page  name] [-IncludeCss] $true
+
+### Example
+
+    MakeBlazorPage -PagePath "Pages" -PageName "NewPage" -IncludeCss $true
+
 <!-- LICENSE -->
 
 ## License
